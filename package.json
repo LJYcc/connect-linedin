@@ -1,0 +1,40 @@
+{
+  "name": "connect-linkedin",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@anon/actions": "^0.1.1",
+    "@anon/sdk-typescript": "^0.6.0",
+    "@anon/sdk-web-link-typescript": "^0.5.1",
+    "antd": "^5.20.1",
+    "classnames": "^2.5.1",
+    "dotenv": "^16.4.5",
+    "next": "14.2.5",
+    "node-fetch": "^3.3.2",
+    "playwright": "^1.46.1",
+    "playwright-core": "^1.46.0",
+    "prop-types": "^15.8.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.17.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "typescript": "^5"
+  }
+}
